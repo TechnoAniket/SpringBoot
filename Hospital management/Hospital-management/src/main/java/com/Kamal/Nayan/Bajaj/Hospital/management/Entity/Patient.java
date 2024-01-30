@@ -15,11 +15,18 @@ import lombok.NoArgsConstructor;
 public class Patient {
 	@Id
 	private long id;
+	
 	private String name;
+	
 	private int age;
+	
 	private int room;
+	
 	private String doctorName;
+	
 	private String admitDate;
+	
 	private long expenses;
+	
 	private String admitStatus;
 }
